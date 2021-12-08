@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+   .listitems{
+       display: none;
+       background: rgb(7,33,66);
+  background: linear-gradient(90deg, rgba(7,33,66,1) 0%, rgba(140,43,122,1) 55%, rgba(255,77,90,1) 100%);
+   }
+  }
+
+  .navi-toggle {
+    font-size: 62.5%;
+  }
+ 
+ 
