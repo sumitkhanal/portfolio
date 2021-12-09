@@ -14,9 +14,10 @@ import NavigationBar from "./components/NavBar/NavigationBar";
 function App() {
   return (
     <>
-    <NavigationBar/>
+    
       <Router>
         <HamburgerMenu />
+        <NavigationBar/>
 
         <div className="pages">
           <Switch>

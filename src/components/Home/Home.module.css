@@ -2,13 +2,40 @@
     background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     padding-top:80px;
-    height:100%;
+    height:700px;
     position: relative;
   
   
   }
+  @media screen and (max-width: 768px){
+  .Home .Container  h1 {
+      font-size: 5rem;
+      color:#fff;
+      
+      line-height: 1;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.6rem;
+      margin-top: 10rem;
+      margin-left:10%;
+      font-family: "futura_m";
+      font-weight: normal;
+      text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
 
-.Home .Container h1 {
-    padding: 10%;
-    color:white;
+  }}
+  
+
+  @media screen and (min-width: 768px){
+  .Home .Container h1 {
+    color:#fff;
+    font-size: 6rem;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin-bottom: 1.6rem;
+    margin-top: 10rem;
+    margin-left:10%;
+    font-family: "futura_m";
+    font-weight: normal;
+    text-shadow: 0 10px 30px rgb(2 11 22 / 50%);
+
+  }
 }

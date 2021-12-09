@@ -153,7 +153,7 @@ function HamburgerMenu() {
           </li>
           <li>
             <ItemLink onClick={handleClick} to="/aboutme">
-              About
+              About me
             </ItemLink>
           </li>
           <li>
